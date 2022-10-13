@@ -1,0 +1,89 @@
+body {
+font-family: 'Oswald', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+tr:nth-child(eve) {
+    background-color: cadetblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+thead {
+    background-color: white;
+}
+
+h1, h2 {
+    color: darkcyan;
+}
+h2 a {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+td a {
+    margin: 0 5px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 50px auto 20px auto;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+.select td {
+    background-color: orange;
+    color: white;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+
+.navbar ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}

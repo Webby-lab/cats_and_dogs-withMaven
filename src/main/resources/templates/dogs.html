@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Our dogs</title>
+</head>
+<body>
+<div th:replace="main :: navbar"></div>
+<main id="dogs">
+    <h1> Our dogs</h1>
+    <form action="" method="post">
+        <input type="text" placeholder="Név szerinti keresés..." name="search">
+        <input type="submit" value="keresés">
+    </form>
+    <table th:class="${dogs.isEmpty ? 'hidden' : ''}">
+        <thead>
+        <tr>
+            <th>
+                <a href="/dogs">ID</a>
+            <th>
+                <span>Név</span>
+                <a href="/dogs?sort=name&asc=true">↑</a>
+                <a href="/dogs?sort=name&asc=false">↓</a>
+            </th>
+            <th>Tulajdonos</th>
+            <th>
+                <a href="/dogs?sort=age">Kora ↑</a>
+            </th>
+            <th>Neme</th>
+            <th>Allergiái</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="dog:${dogs}">
+            <td th:text="${dog.getId()}"></td>
+            <td >
+                <a th:text="${dog.getName()}" th:href="'dogs/' + ${dog.getId()}"/>
+            </td>
+            <td th:text="${dog.getOwner()}"></td>
+            <td th:text="${dog.getAge()}"></td>
+            <td th:text="${dog.getGender()}"></td>
+            <td>
+                <a th:each="allergy : ${dog.getAllergies()}" th:text="${allergy.toString().toLowerCase()}" th:href="'?allergy=' + ${allergy}"></a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <p th:class="${dogs.isEmpty() ? '' : 'hidden'}">Nincs találat ...</p>
+</main>
+</body>
+</html>
