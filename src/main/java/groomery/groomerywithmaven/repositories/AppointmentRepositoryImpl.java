@@ -20,7 +20,7 @@ public class AppointmentRepositoryImpl implements AppointmentRepository {
     @Override
     public Appointment getById(Integer id) {
         return appointments.stream()
-                .filter(appointment -> Objects.equals(appointment.getId(), id))
+                .filter(appointment -> appointment.getId().equals(id))
                 .findFirst()
                 .orElse(null);
     }
@@ -39,6 +39,6 @@ public class AppointmentRepositoryImpl implements AppointmentRepository {
         appointment.setDogId(modified.getDogId());
         appointment.setTime(modified.getTime());
         appointment.setTreatment(modified.getTreatment());
-        appointment.setStay(modified.getStay());
+        appointment.setStay(modified.getIsStay());
     }
 }

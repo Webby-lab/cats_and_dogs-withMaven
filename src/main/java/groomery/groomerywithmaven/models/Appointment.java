@@ -65,5 +65,11 @@ public class Appointment {
     public void setStay(Boolean stay) {
         isStay = stay;
     }
+    public Boolean getIsStay() {
+        return isStay;
+    }
 
+    public void setIsStay(Boolean stay) {
+        isStay = stay;
+    }
 }
