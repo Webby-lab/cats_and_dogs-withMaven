@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div th:replace="main :: navbar"></div>
+    <main id="registration">
+        <fieldset>
+            <h1>Gazdi regisztrálása</h1>
+            <form action="/ownerRegistration" method="post">
+                <div class="form-field">
+                    <label for="ownername">Név:</label>
+                    <input type="text" name="name" id="ownername" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Emailcím:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="phoneNumber">Telefonszám:</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" required>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Regisztrálok" id="submitowner">
+                </div>
+            </form>
+        </fieldset>
+        <fieldset>
+            <h1>Kedvenc regisztrálása</h1>
+            <form action="/registration" method="post">
+                <div class="form-field">
+                    <label for="name">Név:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="age">Kor:</label>
+                    <input type="number" name="age" id="age" min="0" max="50" required>
+                </div>
+                <label>
+                    <span>Tulaj: </span>
+                    <select name="owner" required>
+                        <option th:each="owner : ${owners}"
+                                th:text="${owner}"
+                                th:value="${owner}">
+                        </option>
+                    </select>
+                </label>
+                <div class="form-field">
+                    <label>Nem</label>
+                    <label for="femail">Lány:</label>
+                    <input type="radio" name="gender" id="femail" value="lány">
+                    <label for="mail">Fiú:</label>
+                    <input type="radio" name="gender" id="mail" value="fiú">
+                </div>
+                <div>
+                    <span>Allergiái</span>
+                    <label th:each="allergy : ${allergies}">
+                        <span th:text="${allergy}"></span>
+                        <input type="checkbox" name="allergies" th:value="${allergy}">
+                    </label>
+                </div>
+                <div>
+                    <label for="social">Mennyire szocializált?</label>
+                    <input type="range" name="social" id="social">
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Regisztrálok" id="submit">
+                </div>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>

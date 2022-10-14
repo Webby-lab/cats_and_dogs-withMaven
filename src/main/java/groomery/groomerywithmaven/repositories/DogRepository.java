@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface DogRepository {
     List<Dog> getAll();
-    Dog getById(int id);
+    Dog getById(Integer id);
     void save(Dog dog);
     List<Dog> getByName(String name);
 }

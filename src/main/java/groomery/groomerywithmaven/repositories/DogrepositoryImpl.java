@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Repository
@@ -28,9 +29,9 @@ public class DogrepositoryImpl implements DogRepository {
     }
 
     @Override
-    public Dog getById(int id) {
+    public Dog getById(Integer id) {
         return dogs.stream()
-                .filter(d -> d.getId() == id)
+                .filter(d -> Objects.equals(d.getId(), id))
                 .findFirst()
                 .orElse(null);
     }

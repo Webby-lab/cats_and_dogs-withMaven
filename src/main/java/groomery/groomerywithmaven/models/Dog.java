@@ -17,7 +17,7 @@ public class Dog extends Pet{
     public Dog() {
         this.id = idGenerator.getAndIncrement();
     }
-    
+
     public Dog(String name, int age, String gender, List<Allergy> allergies) {
         this.id = idGenerator.getAndIncrement();
         this.name = name;

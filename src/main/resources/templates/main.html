@@ -6,14 +6,34 @@
     <title>Title</title>
 </head>
 <body>
-<nav class="navbar" th:fragment="navbar">
-    <ol>
-        <li class="navbar"><a href="/">Home</a> </li>
-        <li class="navbar"><a href="dogs">Dogs</a></li>
-        <li class="navbar"><a href="registration">Registration</a></li>
-        <li class="navbar"><a href="appointment">Appointment</a> </li>
-    </ol>
-</nav>
-<h1>Hello</h1>
+    <nav class="navbar" th:fragment="navbar">
+        <ol>
+            <li class="navbar"><a href="/">Home</a> </li>
+            <li class="navbar"><a href="dogs">Dogs</a></li>
+            <li class="navbar"><a href="registration">Registration</a></li>
+            <li class="navbar"><a href="appointment">Appointment</a> </li>
+        </ol>
+    </nav>
+    <h1>Cats & dogs nyitóoldal</h1>
+    <h2>
+        <a href="dogs">Pacienseink</a>
+        <a href="registration">Új kedvenc regisztrálása</a>
+        <a href="appointment">Időpont foglalás</a>
+    </h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Treatment</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="treatment :${treatments}" >
+            <td th:text = "${treatment.toString()}"></td>
+            <td th:text = "${treatment.getTreatmentDescription()}"></td>
+
+        </tr>
+        </tbody>
+    </table>
 </body>
 </html>
