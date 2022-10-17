@@ -18,8 +18,8 @@ public class DogrepositoryImpl implements DogRepository {
             (Arrays.asList(
                     new Dog("Pityu", 3, "fiú",  new Owner("John", "john@john", "334455"), Arrays.asList(Allergy.GYÓGYSZER)),
                     new Dog("Piroska", 1, "lány", new Owner("Jackie", "jj@jj", "44343"), Arrays.asList(Allergy.BŐR, Allergy.NÖVÉNY)),
-                    new Dog("Lajos", 6, "fiú", Arrays.asList(Allergy.ÉLELMISZER, Allergy.NÖVÉNY)),
-                    new Dog("Katika", 11, "lány", Arrays.asList(Allergy.GYÓGYSZER, Allergy.NÖVÉNY, Allergy.ÉLELMISZER))));
+                    new Dog("Lajos", 6, "fiú", new Owner("Sue", "john@john", "334455"), Arrays.asList(Allergy.ÉLELMISZER, Allergy.NÖVÉNY)),
+                    new Dog("Katika", 11, "lány", new Owner("Leonard", "john@john", "334455"), Arrays.asList(Allergy.GYÓGYSZER, Allergy.NÖVÉNY, Allergy.ÉLELMISZER))));
 
 
 
