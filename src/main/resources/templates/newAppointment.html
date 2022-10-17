@@ -68,12 +68,15 @@
             <td>
                 <a th:text="${app.id}" th:href="|/appointment/${app.id}|"></a>
             </td>
-            <td th:text="${app.dogId}"></td>
+            <td>
+                <a th:text="${app.dogId}" th:href="|/dogs/${app.dogId}|"></a>
+            </td>
             <td th:text="${app.time}"></td>
             <td th:text="${app.treatment}"></td>
             <td th:text="${app.isStay}"></td>
         </tr>
         </tbody>
     </table>
+    <h2>A lefoglalt időpontot az id-ra kattintva tudja módosítani!</h2>
 </body>
-</html>
+</html> 
