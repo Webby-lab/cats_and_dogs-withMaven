@@ -64,8 +64,10 @@ public class AppController {
     }
 
     @PostMapping("/registration")
-    public String registerAnimal(@ModelAttribute Dog dog) {
+    public String registerAnimal(@ModelAttribute Dog dog, @RequestParam String owner) {
+        Owner toset = ownerService.getOwnerByName(owner);
         dogService.save(dog);
+        dog.setOwner(toset);
         return "redirect:/dogs";
     }
 

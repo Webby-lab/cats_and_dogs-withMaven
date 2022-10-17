@@ -17,6 +17,7 @@ public class Appointment {
 
 
     public Appointment() {
+
     }
 
     public Appointment(Integer dogId, LocalDateTime time, Treatment treatment, Boolean isStay) {
@@ -72,4 +73,5 @@ public class Appointment {
     public void setIsStay(Boolean stay) {
         isStay = stay;
     }
+
 }

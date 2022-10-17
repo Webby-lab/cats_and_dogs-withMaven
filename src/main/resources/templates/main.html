@@ -29,7 +29,7 @@
         </thead>
         <tbody>
         <tr th:each="treatment :${treatments}" >
-            <td th:text = "${treatment.toString()}"></td>
+            <td th:text = "${treatment.toString().toLowerCase()}"></td>
             <td th:text = "${treatment.getTreatmentDescription()}"></td>
 
         </tr>

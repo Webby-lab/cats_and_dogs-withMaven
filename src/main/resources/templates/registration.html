@@ -56,9 +56,9 @@
                     <input type="radio" name="gender" id="mail" value="fiú">
                 </div>
                 <div>
-                    <span>Allergiái</span>
+                    <span>Allergiái: </span>
                     <label th:each="allergy : ${allergies}">
-                        <span th:text="${allergy}"></span>
+                        <span th:text="${allergy.getText()}"></span>
                         <input type="checkbox" name="allergies" th:value="${allergy}">
                     </label>
                 </div>
