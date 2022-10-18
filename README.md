@@ -66,7 +66,7 @@ Use this space to show useful examples of how a project can be used. Additional 
     - [ ] modify a booked appointment
 - [ ] See the datas of a pet, and its owner
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- CONTACT -->
@@ -75,10 +75,5 @@ Use this space to show useful examples of how a project can be used. Additional 
 Krisztina Kövér  - info@webby.hu
 
 Project Link: [https://cats-and-dogs.azurewebsites.net](https://cats-and-dogs.azurewebsites.net)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
