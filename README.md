@@ -35,7 +35,7 @@
 <div align="center">
 <img src="img/registration.png" alt="Project" width="400">
 </div>
-In this application You can register owner and pets, can book an appointment for different treatments. You can modify your appointment, and for those, who is a "User", can see the detailed datas of pet.
+In this application You can register owner and pets, can book an appointment for different treatments. You can modify your appointment, and for those, who is a "User", can see the detailed datas of the pet.
 
 
 ### Built With
@@ -62,7 +62,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 - [ ] Register owner, or pet
 - [ ] See the registered pets database
-- [ ] Bokk an appointment for different treatments
+- [ ] Bookk an appointment for different treatments
     - [ ] modify a booked appointment
 - [ ] See the datas of a pet, and its owner
 
