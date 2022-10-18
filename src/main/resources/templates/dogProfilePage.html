@@ -21,7 +21,7 @@
     <section>
         <h2 th:text="*{name} + ' allergiái'"></h2>
         <ol>
-            <li th:each="allergy : *{allergies}" th:text="${allergy}"></li>
+            <li th:each="allergy : *{allergies}" th:text="${allergy.getText()}"></li>
         </ol>
     </section>
     <section>
