@@ -79,8 +79,8 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [ ] Register owner, or pet
 - [ ] See the registered pets database
 - [ ] Bokk an appointment for different treatments
-    - [ ] can modify a booked appointment
-- [ ] Can see the datas of a pet, and its owner
+    - [ ] modify a booked appointment
+- [ ] See the datas of a pet, and its owner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
