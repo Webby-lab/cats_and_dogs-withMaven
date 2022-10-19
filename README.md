@@ -48,11 +48,11 @@ In this application You can register owner and pets, can book an appointment for
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-<img src="img/dogs.png" width="200">
-<img src="img/dog.png" width="100">
-<img src="img/appointmentreg.png" width="200">
+<p align="center">
+<img src="img/dogs.png" width="400">
+<img src="img/dog.png" width="180">
+<img src="img/appointmentreg.png" width="400">
 
 
 
@@ -62,10 +62,13 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 - [ ] Register owner, or pet
 - [ ] See the registered pets database
-- [ ] Bookk an appointment for different treatments
+- [ ] Book an appointment for different treatments
     - [ ] modify a booked appointment
 - [ ] See the datas of a pet, and its owner
-
+- [ ] Near future
+    - [ ] new security features, admin role
+    - [ ] add groomers
+    - [ ] frontend
 
 
 
