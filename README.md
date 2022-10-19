@@ -68,7 +68,7 @@ In this application You can register owner and pets, can book an appointment for
 - [ ] Near future
     - [ ] new security features, admin role
     - [ ] add groomers
-    - [ ] frontend
+    - [ ] make frontend more fancy
 
 
 
