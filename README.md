@@ -22,8 +22,14 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+   <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#usage">Near future</a></li>
+    <li><a href="#near-future">Near future</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -44,6 +50,21 @@ In this application You can register owner and pets, can book an appointment for
 * Spring Boot
 * Thymeleaf
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+### Installation
+
+1. 
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Webby-lab/cats_and_dogs-withMaven
+   ```
+3. Open in IntelliJ IDEA
+4. Run on localhost, or deploy on Azure like  <a href="https://cats-and-dogs.azurewebsites.net/">this project</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
