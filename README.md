@@ -23,7 +23,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Near future</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -47,7 +47,11 @@ In this application You can register owner and pets, can book an appointment for
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+- [ ] Register owner, or pet
+- [ ] See the registered pets database
+- [ ] Book an appointment for different treatments
+    - [ ] modify a booked appointment
+- [ ] See the datas of a pet, and its owner
 
 <p align="center">
 <img src="img/dogs.png" width="400">
@@ -56,21 +60,10 @@ In this application You can register owner and pets, can book an appointment for
 
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Register owner, or pet
-- [ ] See the registered pets database
-- [ ] Book an appointment for different treatments
-    - [ ] modify a booked appointment
-- [ ] See the datas of a pet, and its owner
-- [ ] Near future
-    - [ ] new security features, admin role
-    - [ ] add groomers
-    - [ ] make frontend more fancy
-
-
+## Near future
+- [ ] new security features, admin role
+- [ ] add groomers
+- [ ] Feature 3
 
 <!-- CONTACT -->
 ## Contact
