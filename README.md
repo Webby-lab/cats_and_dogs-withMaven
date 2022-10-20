@@ -55,16 +55,15 @@ In this application You can register owner and pets, can book an appointment for
 
 
 ### Installation
-
-1. 
-2. Clone the repo
+ 
+1. Clone the repo
    ```sh
    git clone https://github.com/Webby-lab/cats_and_dogs-withMaven
    ```
-3. Open in IntelliJ IDEA
-4. Run on localhost, or deploy on Azure like  <a href="https://cats-and-dogs.azurewebsites.net/">this project</a>
+2. Open in IntelliJ IDEA - new maven project
+3. Run on localhost, or deploy on Azure like  <a href="https://cats-and-dogs.azurewebsites.net/">this project</a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -84,7 +83,7 @@ In this application You can register owner and pets, can book an appointment for
 ## Near future
 - [ ] new security features, admin role
 - [ ] add groomers
-- [ ] Feature 3
+- [ ] make the app more fancy
 
 <!-- CONTACT -->
 ## Contact
