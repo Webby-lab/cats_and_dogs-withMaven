@@ -60,7 +60,7 @@ In this application You can register owner and pets, can book an appointment for
    ```sh
    git clone https://github.com/Webby-lab/cats_and_dogs-withMaven
    ```
-2. Open in IntelliJ IDEA - new maven project
+2. Open in IntelliJ IDEA - new Maven project
 3. Run on localhost, or deploy on Azure like  <a href="https://cats-and-dogs.azurewebsites.net/">this project</a>
 
 
