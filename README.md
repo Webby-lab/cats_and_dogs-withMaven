@@ -71,7 +71,7 @@ In this application You can register owner and pets, can book an appointment for
 - [ ] See the registered pets database
 - [ ] Book an appointment for different treatments
     - [ ] modify a booked appointment
-- [ ] See the datas of a pet, and its owner
+- [ ] See the datas of a pet, and its owner (login needed: username: kkkuser, password: pass;
 
 <p align="center">
 <img src="img/dogs.png" width="400">
