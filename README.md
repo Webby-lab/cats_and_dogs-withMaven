@@ -22,19 +22,15 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+   <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#near-future">Near future</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,12 +41,7 @@
 <div align="center">
 <img src="img/registration.png" alt="Project" width="400">
 </div>
-In this application You can register owner and pets, can book an appointment for different treatments. You can modify your appointment, and for those, who is a "User", can see the detailed datas of pet.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+In this application You can register owner and pets, can book an appointment for different treatments. You can modify your appointment, and for those, who is a "User", can see the detailed datas of the pet.
 
 
 ### Built With
@@ -58,32 +49,41 @@ In this application You can register owner and pets, can book an appointment for
 * Java
 * Spring Boot
 * Thymeleaf
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+### Installation
+ 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Webby-lab/cats_and_dogs-withMaven
+   ```
+2. Open in IntelliJ IDEA - new Maven project
+3. Run on localhost, or deploy on Azure like  <a href="https://cats-and-dogs.azurewebsites.net/">this project</a>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-<img src="img/registration.png" width="200">
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
 - [ ] Register owner, or pet
 - [ ] See the registered pets database
-- [ ] Bokk an appointment for different treatments
+- [ ] Book an appointment for different treatments
     - [ ] modify a booked appointment
 - [ ] See the datas of a pet, and its owner
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="center">
+<img src="img/dogs.png" width="400">
+<img src="img/dog.png" width="180">
+<img src="img/appointmentreg.png" width="400">
 
+
+
+## Near future
+- [ ] new security features, admin role
+- [ ] add groomers
+- [ ] make the app more fancy
 
 <!-- CONTACT -->
 ## Contact
@@ -91,10 +91,5 @@ Use this space to show useful examples of how a project can be used. Additional 
 Krisztina Kövér  - info@webby.hu
 
 Project Link: [https://cats-and-dogs.azurewebsites.net](https://cats-and-dogs.azurewebsites.net)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
