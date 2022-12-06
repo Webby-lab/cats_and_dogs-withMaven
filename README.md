@@ -6,7 +6,7 @@
   <p align="center">
     A small Java app for groomeries.
     <br />
-   <a href="https://cats-and-dogs.azurewebsites.net/">View Demo</a>
+   
     
   </p>
 </div>
@@ -90,6 +90,6 @@ In this application You can register owner and pets, can book an appointment for
 
 Krisztina Kövér  - info@webby.hu
 
-Project Link: [https://cats-and-dogs.azurewebsites.net](https://cats-and-dogs.azurewebsites.net)
+
 
 
